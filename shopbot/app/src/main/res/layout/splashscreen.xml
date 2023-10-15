@@ -1,0 +1,83 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/linear1"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:padding="8dp"
+		android:background="#FFFFFF"
+		android:gravity="center_horizontal"
+		android:orientation="vertical"
+		tools:ignore="UselessParent">
+		<ImageView
+			android:id="@+id/imageview1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="80dp"
+			android:src="@drawable/cart"
+			android:scaleType="center"
+			android:contentDescription="@string/todo14" />
+		<TextView
+			android:id="@+id/textview1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:text="@string/shopbot"
+			android:textSize="25sp"
+			android:textStyle="bold"
+			android:textColor="#000000" />
+		<TextView
+			android:id="@+id/textview2"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:gravity="center_horizontal|center_vertical"
+			android:text="@string/empowering_your_shopping"
+			android:textSize="12sp"
+			android:textStyle="bold"
+			android:textColor="#000000" />
+		<TextView
+			android:id="@+id/textview4"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:text="@string/experince_with"
+			android:textSize="12sp"
+			android:textStyle="bold"
+			android:textColor="#000000" />
+		<TextView
+			android:id="@+id/textview3"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/intelligence_welcome"
+			android:textSize="12sp"
+			android:textStyle="bold"
+			android:textColor="#000000" />
+		<TextView
+			android:id="@+id/textview5"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:paddingLeft="8dp"
+			android:paddingTop="8dp"
+			android:paddingRight="8dp"
+			android:paddingBottom="6dp"
+			android:text="@string/powered_smart_retail"
+			android:textSize="12sp"
+			android:textStyle="bold"
+			android:textColor="#000000" />
+		<TextView
+			android:id="@+id/textview6"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/assistant"
+			android:textSize="12sp"
+			android:textStyle="bold"
+			android:textColor="#000000" />
+	</LinearLayout>
+</LinearLayout>
+

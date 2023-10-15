@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "944070306246",
+    "project_id": "shopbot-01",
+    "storage_bucket": "shopbot-01.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:944070306246:android:1867547bbf53448c606ac7",
+        "android_client_info": {
+          "package_name": "com.shopbot.bot"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBe-h9Ds-kV3Z4RAlIN_khvW46JZg3lUAU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

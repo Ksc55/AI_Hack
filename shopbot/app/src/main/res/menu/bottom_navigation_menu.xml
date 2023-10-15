@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_item_1"
+        android:icon="@drawable/bell"
+        android:title="@string/notification" />
+    <item
+        android:id="@+id/navigation_item_2"
+        android:icon="@drawable/home"
+        android:title="@string/home" />
+    <item
+        android:id="@+id/navigation_item_3"
+        android:icon="@drawable/internet"
+        android:title="@string/internet" />
+    <!-- Add more items for additional navigation options -->
+</menu>

@@ -1,0 +1,82 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/linear1"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:gravity="center_horizontal"
+		android:orientation="vertical"
+		tools:ignore="UselessParent">
+		<TextView
+			android:id="@+id/textview1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="20dp"
+			android:padding="8dp"
+			android:text="@string/your_cart"
+			android:textSize="25sp"
+			android:textStyle="bold"
+			android:textColor="#000000" />
+		<LinearLayout
+			android:id="@+id/linear2"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="4dp"
+			android:background="#DADADA"
+			android:gravity="center_horizontal|center_vertical"
+			android:orientation="horizontal">
+			<LinearLayout
+				android:id="@+id/live_container"
+				android:layout_width="100dp"
+				android:layout_height="wrap_content"
+				android:gravity="center_horizontal|center_vertical"
+				android:orientation="vertical">
+				<TextView
+					android:id="@+id/textview3"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="@string/live"
+					android:textSize="12sp"
+					android:textColor="#000000" />
+			</LinearLayout>
+			<LinearLayout
+				android:id="@+id/linear4"
+				android:layout_width="wrap_content"
+				android:layout_height="match_parent"
+				android:padding="8dp"
+				android:orientation="vertical" />
+
+			<LinearLayout
+				android:id="@+id/order_history_container"
+				android:layout_width="100dp"
+				android:layout_height="match_parent"
+				android:gravity="center_horizontal|center_vertical"
+				android:orientation="vertical"
+				tools:ignore="TextSizeCheck">
+
+				<TextView
+					android:id="@+id/textview4"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="@string/order_history"
+					android:textColor="#000000"
+					android:textSize="12sp" />
+			</LinearLayout>
+		</LinearLayout>
+		<ListView
+			android:id="@+id/listview1"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_marginTop="50dp"
+			android:choiceMode="none" />
+	</LinearLayout>
+</LinearLayout>
+
+
